@@ -1,4 +1,4 @@
-/* 데스크톱 */
+	/* 데스크톱 */
 	body{ margin:0 auto;
 	      width:60%;
 		  font-family:"Nanum Gothic", "맑은 고딕", Dotum;
@@ -22,9 +22,9 @@
 	              color: #1B4F72;
 				  text-align:center;
 				  margin:50px 0 10px 0; }
-	#contents img{display: block;
-					margin: 5px auto; }
 	#contents video{display: block;
+					margin: 5px auto; }
+	#contents img{display: block;
 					margin: 5px auto; }
 	#contents h3{text-align:center;
 				 color:#2F62B1;}
