@@ -25,7 +25,7 @@ label,
 #nav {
     padding: 0;
     margin: 0;
-    display: inline;
+    display: flex;
 }
 
 #nav li {
@@ -33,18 +33,9 @@ label,
     padding: 30px 100px;/* 수정된 부분 */
     font-weight: bold;
     font-size: 22px; /* 수정된 부분 */
-}
-#nav {
-    padding: 0;
-    margin: 0;
-    display: flex; /* 네비게이션 바를 가로로 정렬하기 위해 flex 사용 */
-}
-
-#nav li {
     flex: 1; /* 네비게이션 바의 각 항목이 동일한 너비를 가지도록 설정 */
     text-align: center;
 }
-
 #nav a {
     display: block;
     padding: 10px;
