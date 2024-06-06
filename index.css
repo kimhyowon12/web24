@@ -26,6 +26,7 @@ label,
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
 }
 
 #nav li {
@@ -35,12 +36,6 @@ label,
     font-size: 22px; /* 수정된 부분 */
     flex: 1; /* 네비게이션 바의 각 항목이 동일한 너비를 가지도록 설정 */
     text-align: center;
-}
-#nav a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
 }
 #contents {
     min-height: 200px;
