@@ -30,7 +30,7 @@ label,
 
 #nav li {
     display: inline-block;
-    padding: 30px 150px;/* 수정된 부분 */
+    padding: 30px 75px;/* 수정된 부분 */
     font-weight: bold;
     font-size: 22px; /* 수정된 부분 */
 }
@@ -87,16 +87,12 @@ label,
         display: block;
     }
 
-    #nav li {
-        display: block;
-        width:100%;
-        text-align: center;
-        border-top: 1px solid white;
-        padding: 30px 70px;
-        font-size: 16px; /* 수정된 부분 */
-    }
-
-
+ #nav li{ display:block;
+             width:100%;
+             text-align:center;
+             border-top:1px solid white;
+             padding: 3%;
+             font-size:1.1em; }
     label {
         display: block;
         text-align: center;
