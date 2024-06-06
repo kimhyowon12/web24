@@ -92,8 +92,9 @@ label,
         width:100%;
         text-align: center;
         border-top: 1px solid white;
-        padding: 3%;
-             font-size:1.1em; }
+        padding: 30px 150px;
+        font-size: 16px; /* 수정된 부분 */
+    }
 
 
     label {
