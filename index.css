@@ -15,10 +15,7 @@ a {
 #header { 
     background-color: #00498c;
     color: white;
-}
-
-label, #toggle { 
-    display: none;
+    width: 100%; /* 콘텐츠 너비와 일치 */
 }
 
 #nav { 
@@ -28,6 +25,7 @@ label, #toggle {
     justify-content: space-around; /* 공간을 균등하게 나눔 */
     align-items: center; /* 항목을 세로로 중앙 정렬 */
     list-style: none; /* 리스트 스타일 제거 */
+    width: 100%; /* 콘텐츠 너비와 일치 */
 }
 
 #nav li { 
@@ -51,11 +49,15 @@ label, #toggle {
 #contents video { 
     display: block;
     margin: 5px auto;
+    width: 100%; /* 콘텐츠 너비와 일치 */
+    max-width: 100%; /* 튀어나오지 않도록 */
 }
 
 #contents img { 
     display: block;
     margin: 5px auto;
+    width: 100%; /* 콘텐츠 너비와 일치 */
+    max-width: 100%; /* 튀어나오지 않도록 */
 }
 
 #contents h3 { 
@@ -79,9 +81,9 @@ label, #toggle {
 /* 모바일 */
 @media screen and (max-width: 480px) {
     body { 
-        margin: 0 auto;
+        margin: 0;
         width: 100%;
-        padding: 0;
+        padding: 0; /* 여백을 없앰 */
     }
 
     label { 
@@ -111,7 +113,7 @@ label, #toggle {
         font-size: 1.1em;
     }
 
-   #contents { 
+    #contents { 
         padding: 0; /* 여백을 없앰 */
     }
 
@@ -120,7 +122,6 @@ label, #toggle {
         max-width: 100%; /* 최대 너비를 100%로 제한 */
     }
 }
-
 
 /* 태블릿 */
 @media screen and (max-width: 768px) {
