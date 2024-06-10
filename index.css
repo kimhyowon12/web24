@@ -1,78 +1,40 @@
-/* 데스크톱 */
-body {
-    margin: 0 auto;
-    width: 60%;
-    font-family: "Nanum Gothic", "맑은 고딕", Dotum;
-    color: #404040;
-    font-size: 95%;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-#header {
-    background-color: #00498c;
-    color: white;
-}
-
-label,
-#toggle {
-    display: none;
-}
-
-#nav {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-#nav li {
-    display: inline-block;
-    padding: 30px 100px;/* 수정된 부분 */
-    font-weight: bold;
-    font-size: 22px; /* 수정된 부분 */
-    flex: 1; /* 네비게이션 바의 각 항목이 동일한 너비를 가지도록 설정 */
-    text-align: center;
-}
-#contents {
-    min-height: 200px;
-    background-color: white;
-}
-
-#contents h2 {
-    font-size: 18px;
-    color: #1b4f72;
-    text-align: center;
-    margin: 50px 0 10px 0;
-}
-
-#contents video,
-#contents img {
-    display: block;
-    margin: 5px auto;
-    max-width: 100%; /* 수정된 부분 */
-}
-
-#contents h3 {
-    text-align: center;
-    color: #2f62b1;
-}
-
-#contents p {
-    padding: 0 5%;
-    line-height: 1.7em;
-}
-
-#footer {
-    background-color: #323232;
-    color: white;
-    text-align: center;
-    font-size: 0.85em;
-    padding: 5px 0;
-}
+   /* 데스크톱 */
+   body{ margin:0 auto;
+         width:60%;
+        font-family:"Nanum Gothic", "맑은 고딕", Dotum;
+        color:#404040;
+        font-size:95%; }
+   a {text-decoration:none;
+      color:white; }
+   #header{ background-color: #00498c;
+            color:white;}
+   label,#toggle {display:none;}
+    #nav {   padding:0;
+           margin: 0;
+         display:inline;}
+   #nav li{ display: inline-block;
+            padding: 30px 150px;
+          font-weight:bold;
+          font-size:22px;}
+   #contents {min-height: 200px; 
+              background-color:white; }
+   #contents h2{ font-size: 18px;
+                 color: #1B4F72;
+              text-align:center;
+              margin:50px 0 10px 0; }
+   #contents video{display: block;
+               margin: 5px auto; }
+   #contents img{display: block;
+               margin: 5px auto; }
+   #contents h3{text-align:center;
+             color:#2F62B1;}
+   #contents p{padding:0 5%;
+            line-height:1.7em;}
+   #footer {background-color:#323232;
+            color:white;
+          text-align:center;
+          font-size:0.85em;
+          padding: 5px 0; }
    /* 모바일 */
    @media screen and (max-width: 480px) {
       body{margin: 0 auto;
