@@ -106,6 +106,7 @@ label, #toggle {
         display: none; /* 기본적으로 숨기기 */
         flex-direction: column; /* 세로 방향으로 변경 */
         align-items: center; /* 항목을 중앙 정렬 */
+        justify-content: space-around; /* 공간을 균등하게 나눔 */
     }
 
     #nav li { 
