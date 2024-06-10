@@ -81,6 +81,7 @@ label, #toggle {
     body { 
         margin: 0 auto;
         width: 100%;
+        padding: 0;
     }
 
     label { 
@@ -106,18 +107,20 @@ label, #toggle {
         width: 100%;
         text-align: center;
         border-top: 1px solid white;
-        padding: 3%; /* 패딩을 조정 */
+        padding: 10px 0; /* 패딩을 조정 */
         font-size: 1.1em;
     }
 
-    #contents img { 
-        width: 98%;
+   #contents { 
+        padding: 0; /* 여백을 없앰 */
     }
 
-    #contents video { 
-        width: 98%;
+    #contents img, #contents video { 
+        width: 100%; /* 화면에 꽉 차게 설정 */
+        max-width: 100%; /* 최대 너비를 100%로 제한 */
     }
 }
+
 
 /* 태블릿 */
 @media screen and (max-width: 768px) {
